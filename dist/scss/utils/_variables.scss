@@ -1,0 +1,50 @@
+//new
+$white: #fff;
+$grey: #F6F7F7;
+$grey-dark: #949494;
+$grey-dark-2: #5F6060;
+$black: #545454;
+$blue: #51ADE5;
+
+
+/* reset */
+$min-width: 320px;
+$max-width: 1180px; // 1140 + 20 + 20
+$base-bg: #fff;
+
+$base-font-size: 18px;
+$base-line-height: 1.2;
+
+$regular: "glacialindifference-regular", sans-serif;
+$bold: "glacialindifference-bold", sans-serif;
+
+$serif: "abrilfatface-regular", serif;
+
+$medium: "encodesansexpanded-medium", sans-serif;
+$semibold: "encodesansexpanded-semibold", sans-serif;
+$extrabold: "encodesansexpanded-extrabold", sans-serif;
+
+$base-regular-font-family: $regular; // USED
+
+
+$default-transition: all 0.2s linear;
+
+/* main variables */
+$color-text: $black;
+$link-color: $color-text;
+$secondary-text: $black;
+
+//text, titles
+$base-text-color: $black;
+$secondary-text-color: $black;
+
+
+$font-size-h1: 27px;
+$line-height-h1: 1;
+$font-size-h2: 20px;
+$line-height-h2: 1.1;
+$font-size-h3: 28px;
+$line-height-h3: 32px;
+
+$desktop-media: 991px;
+$tablet-media: 767px;
