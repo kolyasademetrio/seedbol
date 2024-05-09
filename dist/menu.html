@@ -53,25 +53,33 @@
                 <a href="/rehoboth-beach-seedbol-seed-eatery-about.html" class="menu__link">About Us</a>
               </li>
               <li class="menu__item">
-                <a href="https://scnv.io/uc0j" class="menu__link">Download App</a>
+                <a href="https://scnv.io/uc0j" class="menu__link" target="_blank">Download App</a>
               </li>
               <li class="menu__item">
-                <a href="https://scnv.io/RZn3" class="menu__link">Review Us</a>
+                <a href="https://scnv.io/RZn3" class="menu__link" target="_blank">Review Us</a>
+              </li>
+              <!-- <li class="menu__item">
+                <a href="https://tmt.spotapps.co/job-listings?spot_id=87967&callback_url=http://seedbol.com/&_gl=1*1yozaqf*_ga*MTc3MTcwNTcyNy4xNzA5ODI4NzU1*_ga_VG24VK2VKT*MTcxMDc3NTA1NS4xNi4xLjE3MTA3NzUxMTEuMC4wLjA.#&source=footer" class="menu__link" target="_blank">Jobs</a>
+              </li> -->
+              <li class="menu__item">
+                <a href="https://my.loopz.io/card-checkout/ae272d5b-d8a0-4a2a-9992-4313023faa58" class="menu__link" target="_blank">Gift Cards</a>
               </li>
               <li class="menu__item">
-                <a href="https://tmt.spotapps.co/job-listings?spot_id=87967&callback_url=http://seedbol.com/&_gl=1*1yozaqf*_ga*MTc3MTcwNTcyNy4xNzA5ODI4NzU1*_ga_VG24VK2VKT*MTcxMDc3NTA1NS4xNi4xLjE3MTA3NzUxMTEuMC4wLjA.#&source=footer" class="menu__link">Jobs</a>
-              </li>
-              <li class="menu__item">
-                <a href="https://my.loopz.io/card-checkout/ae272d5b-d8a0-4a2a-9992-4313023faa58" class="menu__link">Gift Cards</a>
-              </li>
-              <li class="menu__item">
-                <a href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308/catering#" class="menu__link">Catering</a>
+                <a href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308/catering#" class="menu__link" target="_blank">Catering</a>
               </li>
             </ul>
           </nav>
           <div class="header__navOverlay js-menu-overlay"></div>
           <div class="header__btnWrap">
-            <a href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-secondary" target="_blank">Order Now</a>
+            <button class="header__btn btn btn-secondary js-btn-select">Order Now</button>
+            <div class="select js-btn-select-holder">
+              <div class="option">
+                <a href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-secondary" target="_blank">Pick up</a>
+              </div>
+              <div class="option">
+                <a href="https://order.online/store/seedbol-kitchen-rehoboth-beach-939053/" class="header__btn btn btn-secondary" target="_blank">Delivery</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -85,16 +93,18 @@
         </div>
       </section>
       <section class="tabs">
-        <div class="container">
+        <div class="container m-secondary">
           <h1 class="title">Menu</h1>
-          <div class="food-menu-nav js-tabs">
-            <a class="food-menu-nav-item menu_97517_link custom-temp-btn hvr-fade js-tab" href="#bowls"><span>BOWLS</span></a>
-            <a class="food-menu-nav-item menu_198638_link custom-temp-btn hvr-fade js-tab" href="#soups"><span>SOUPS</span></a>
-            <a class="food-menu-nav-item menu_131221_link custom-temp-btn hvr-fade js-tab" href="#sides"><span>SIDES</span></a>
-            <a class="food-menu-nav-item menu_131227_link custom-temp-btn hvr-fade js-tab" href="#desserts"><span>DESSERTS</span></a>
-            <a class="food-menu-nav-item menu_131233_link custom-temp-btn hvr-fade js-tab" href="#sauces"><span>SAUCES</span></a>
-            <a class="food-menu-nav-item menu_131235_link custom-temp-btn hvr-fade js-tab" href="#soda-water"><span>SODA &amp; WATER</span></a>
-            <a class="food-menu-nav-item menu_97516_link custom-temp-btn hvr-fade js-tab" href="#catering"><span>CATERING</span></a>
+          <div class="food-menu-nav-wrapper">
+            <ul class="food-menu-nav js-tabs">
+              <li><a class="food-menu-nav-item menu_97517_link custom-temp-btn hvr-fade js-tab" href="#bowls"><span>BOWLS</span></a></li>
+              <li><a class="food-menu-nav-item menu_198638_link custom-temp-btn hvr-fade js-tab" href="#soups"><span>SOUPS</span></a></li>
+              <li><a class="food-menu-nav-item menu_131221_link custom-temp-btn hvr-fade js-tab" href="#sides"><span>SIDES</span></a></li>
+              <li><a class="food-menu-nav-item menu_131227_link custom-temp-btn hvr-fade js-tab" href="#desserts"><span>DESSERTS</span></a></li>
+              <li><a class="food-menu-nav-item menu_131233_link custom-temp-btn hvr-fade js-tab" href="#sauces"><span>SAUCES</span></a></li>
+              <li><a class="food-menu-nav-item menu_131235_link custom-temp-btn hvr-fade js-tab" href="#soda-water"><span>SODA &amp; WATER</span></a></li>
+              <li><a class="food-menu-nav-item menu_97516_link custom-temp-btn hvr-fade js-tab" href="#catering"><span>CATERING</span></a></li>
+            </ul>
           </div>
         </div>
       </section>
@@ -117,7 +127,7 @@
                     <p class="cardgrid__itemDescription">Baby Spinach, Cilantro Brown Rice, Chili Sweet Potatoes, Balsamic Mushrooms, Chipotle Chicken, Basil Tomatoes, Pesto Chickpeas, Chimichurri, Ground Flax Seeds</p>
                     <p class="cardgrid__itemPrice">$14.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -133,7 +143,7 @@
                     <p class="cardgrid__itemDescription">Japanese Kale, Tri-Color Quinoa, Garlic Broccoli, Cinnamon Pineapple, Asian Tofu, Thai Cucumbers, Cilantro Purple Cabbage, Mango Habanero, Sesame Seeds</p>
                     <p class="cardgrid__itemPrice">$14.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -149,7 +159,7 @@
                     <p class="cardgrid__itemDescription">Japanese Kale, Baby Spinach, Turmeric Cauliflower, Scrambled Falafel, Basil Tomatoes, Cilantro Purple Cabbage, Thai Cucumbers, Garlic Red Pepper</p>
                     <p class="cardgrid__itemPrice">$14.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -175,7 +185,7 @@
                     <p class="cardgrid__itemDescription">2 bases, 2 veggies, 1 protein, 2 add-ons, 1 sauce, seeds</p>
                     <p class="cardgrid__itemPrice">$14.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -191,7 +201,7 @@
                     <p class="cardgrid__itemDescription">2 bases, 1 veggie, 1 protein, 1 add on and 1 sauce</p>
                     <p class="cardgrid__itemPrice">$12.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -207,7 +217,7 @@
                     <p class="cardgrid__itemDescription">Create your personalized bowl of any size by choosing your desired sides and adding them to your selection.</p>
                     <p class="cardgrid__itemPrice">Optional</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -438,7 +448,7 @@
                     <p class="cardgrid__itemDescription">Baby spinach, Tri-color Quinoa, Garlic Broccoli, Pesto Chickpea, Basil Tomatoes, Pumpkin Seeds</p>
                     <p class="cardgrid__itemPrice">$12.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -454,7 +464,7 @@
                     <p class="cardgrid__itemDescription">Japanese Kale, Ponzu Glass Noodles, Balsamic Mushrooms, Cilantro Purple Cabbage, French Carrots, Chimichurri, Sesame Seeds</p>
                     <p class="cardgrid__itemPrice">$12.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -470,7 +480,7 @@
                     <p class="cardgrid__itemDescription">Cilantro Brown Rice, Lemongrass Rice Noodles, Turmeric Cauliflower, Red Pickled Onions, Basil Tomatoes, Sunflower Seeds</p>
                     <p class="cardgrid__itemPrice">$12.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -516,7 +526,7 @@
                     </ul>
                     <p class="cardgrid__itemPrice">$1.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -549,7 +559,7 @@
                     </ul>
                     <p class="cardgrid__itemPrice">$1.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -572,7 +582,7 @@
                         <img src="images/menu/protein3.png" class="cardgrid__itemListItemImg" alt="Hemp Pesto Chicken Salad" />
                       </li>
                       <li class="cardgrid__itemListItem">
-                        <p class="cardgrid__itemListItemText">Picante Shrimp <span class="cardgrid__itemListItemTextSpan">GF</span></p>
+                        <p class="cardgrid__itemListItemText">Picante Shrimp +$2.99<span class="cardgrid__itemListItemTextSpan">GF</span></p>
                         <img src="images/menu/protein4.png" class="cardgrid__itemListItemImg" alt="Picante Shrimp" />
                       </li>
                       <li class="cardgrid__itemListItem">
@@ -586,7 +596,7 @@
                     </ul>
                     <p class="cardgrid__itemPrice">$3.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -623,7 +633,7 @@
                     </ul>
                     <p class="cardgrid__itemPrice">$1.29</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -631,7 +641,7 @@
               <div class="cardgrid__item">
                 <div class="cardgrid__itemInner">
                   <div class="cardgrid__itemContent">
-                    <h5 class="cardgrid__itemTitle m-secondary">Add-On</h5>
+                    <h5 class="cardgrid__itemTitle m-secondary">Sauces</h5>
                     <ul class="cardgrid__itemList">
                       <li class="cardgrid__itemListItem">
                         <p class="cardgrid__itemListItemText">Chimichurri <span class="cardgrid__itemListItemTextSpan">V | GF</span></p>
@@ -652,7 +662,7 @@
                     </ul>
                     <p class="cardgrid__itemPrice">$0.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -680,7 +690,7 @@
                     <p class="cardgrid__itemDescription">Natural Peanut Butter, Organic Dairy-Free Chocolate, Cocoa, Gluten-Free Oats, Organic Coconut Milk, Organic Coconut Oil, Organic Agave, Vanilla, Himalayan Salt</p>
                     <p class="cardgrid__itemPrice">$4.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -696,7 +706,7 @@
                     <p class="cardgrid__itemDescription">Bananas, Chocolate Chips, Organic Coconut Milk, Organic Coconut Oil, Olive Oil, Almond Flour, All-Purpose GF Flour, Agave Syrup, Vanilla Extract, Himalayan Salt, Flax Seeds</p>
                     <p class="cardgrid__itemPrice">$6.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -712,7 +722,23 @@
                     <p class="cardgrid__itemDescription">Natural Peanut Butter, Cashew, Organic Coconut Milk, Organic Coconut Oil, Organic Agave, Lemon, Walnuts, Almonds, Dates, Himalayan Salt, Cinnamon</p>
                     <p class="cardgrid__itemPrice">$8.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cardgrid__item">
+                <div class="cardgrid__itemInner">
+                  <header class="cardgrid__itemHeader">
+                    <figure class="cardgrid__itemFigure"><img src="images/menu/desserts4.png" alt="Chocolate Cheesecake" class="cardgrid__itemImg"></figure>
+                    <span class="cardgrid__itemLabel">V | GF</span>
+                  </header>
+                  <div class="cardgrid__itemContent">
+                    <h5 class="cardgrid__itemTitle">Chocolate Cheesecake</h5>
+                    <p class="cardgrid__itemDescription">Organic Dairy-Free Chocolate, Cocoa, Cashew, Organic Coconut Milk, Organic Coconut Oil, Organic Agave, Olive Oil, Lemon, Vanilla, Walnuts, Almonds, Dates, Himalayan Salt</p>
+                    <p class="cardgrid__itemPrice">$8.99</p>
+                    <div class="cardgrid__itemBtnWrap">
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -740,7 +766,7 @@
                     <p class="cardgrid__itemDescription">Cilantro, Parsley, Vegetable Oil, Garlic, Lemon Juice, Red Wine Vinegar, Salt, Crushed Red Pepper</p>
                     <p class="cardgrid__itemPrice">$7.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -754,9 +780,9 @@
                   <div class="cardgrid__itemContent">
                     <h5 class="cardgrid__itemTitle">Garlic Red Pepper</h5>
                     <p class="cardgrid__itemDescription">Roasted Red Pepper, Garlic, Vegetable Oil, Coconut Milk, Basil, Lemon Juice, Nutrition Yeast, Salt, Black Pepper</p>
-                    <p class="cardgrid__itemPrice">$7.49</p>
+                    <p class="cardgrid__itemPrice">$7.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -772,7 +798,23 @@
                     <p class="cardgrid__itemDescription">Mango, Habanero Peppers, Ginger, Orange Juice, Lime Juice</p>
                     <p class="cardgrid__itemPrice">$7.99</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cardgrid__item">
+                <div class="cardgrid__itemInner">
+                  <header class="cardgrid__itemHeader">
+                    <figure class="cardgrid__itemFigure"><img src="images/menu/sauces4.png" alt="French Vinaigrette Bottle" class="cardgrid__itemImg"></figure>
+                    <span class="cardgrid__itemLabel">V | GF</span>
+                  </header>
+                  <div class="cardgrid__itemContent">
+                    <h5 class="cardgrid__itemTitle">French Vinaigrette Bottle</h5>
+                    <p class="cardgrid__itemDescription">Champagne Vinegar, Olive Oil, Garlic, Lemon Juice, Dijon Mustard, Agave, Salt, Black Pepper</p>
+                    <p class="cardgrid__itemPrice">$7.99</p>
+                    <div class="cardgrid__itemBtnWrap">
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -785,7 +827,7 @@
         <section class="cardgridSection">
           <div class="container">
             <h4 class="cardgridSection__title">Hommade drinks</h4>
-            <p class="cardgridSection__text">Some text about</p>
+            <p class="cardgridSection__text">Kombucha</p>
             <div class="cardgrid m-secondary">
               <div class="cardgrid__item">
                 <div class="cardgrid__itemInner">
@@ -796,11 +838,11 @@
                     <span class="cardgrid__itemLabel">V | GF</span>
                   </header>
                   <div class="cardgrid__itemContent">
-                    <h5 class="cardgrid__itemTitle">Kombucha Seedbol Blueberry & Ginger (ON TAP)</h5>
+                    <h5 class="cardgrid__itemTitle">Seedbol Blueberry & Ginger (ON TAP)</h5>
                     <p class="cardgrid__itemDescription">Raw Kombucha, Blueberries, Ginger Root, Organic Cane Sugar</p>
                     <p class="cardgrid__itemPrice">$6.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -812,11 +854,11 @@
                     <span class="cardgrid__itemLabel">V | GF</span>
                   </header>
                   <div class="cardgrid__itemContent">
-                    <h5 class="cardgrid__itemTitle">Kombucha Seedbol Pineapple & Basil (ON TAP)</h5>
+                    <h5 class="cardgrid__itemTitle">Seedbol Pineapple & Basil (ON TAP)</h5>
                     <p class="cardgrid__itemDescription">Roasted Red Pepper, Garlic, Vegetable Oil, Coconut Milk, Basil, Lemon Juice, Nutrition Yeast, Salt, Black Pepper</p>
                     <p class="cardgrid__itemPrice">$6.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -827,7 +869,7 @@
         <section class="cardgridSection">
           <div class="container">
             <h4 class="cardgridSection__title">Bottled drinks</h4>
-            <p class="cardgridSection__text">Some text about</p>
+            <p class="cardgridSection__text">Healthy drinks</p>
             <div class="cardgrid m-secondary">
               <div class="cardgrid__item">
                 <div class="cardgrid__itemInner">
@@ -840,7 +882,7 @@
                   <div class="cardgrid__itemContent">
                     <h5 class="cardgrid__itemTitle">BAI</h5>
                     <p class="cardgrid__itemDescription hasSibling">A refreshing drink infused with antioxidants and natural flavors. Total Sugars 1 g (Product of USA)</p>
-                    <div class="checkboxes m-secondary">
+                    <!-- <div class="checkboxes m-secondary">
                       <div class="checkboxes__inner">
                         <div class="checkboxes__item">
                           <input id="brasilia-blueberry" type="radio" name="bai" hidden>
@@ -867,10 +909,10 @@
                           <label class="radio" for="boost-buka-black-raspberry">BOOST Buka Black Raspberry</label>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <p class="cardgrid__itemPrice">$3.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -884,7 +926,7 @@
                   <div class="cardgrid__itemContent">
                     <h5 class="cardgrid__itemTitle">Vita Coco</h5>
                     <p class="cardgrid__itemDescription hasSibling">Refreshing Coconut Water Coconut water is the best choice for everyday, on-the-go refreshment (Product of USA)</p>
-                    <div class="checkboxes">
+                    <!-- <div class="checkboxes">
                       <div class="checkboxes__item">
                         <input id="peach-mango" type="radio" name="vita-coco" hidden>
                         <label class="radio" for="peach-mango">Peach & Mango</label>
@@ -893,10 +935,10 @@
                         <input id="the-original" type="radio" name="vita-coco" hidden>
                         <label class="radio" for="the-original">The Original</label>
                       </div>
-                    </div>
+                    </div> -->
                     <p class="cardgrid__itemPrice">$3.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -910,7 +952,7 @@
                   <div class="cardgrid__itemContent">
                     <h5 class="cardgrid__itemTitle">Maine Root (Soda)</h5>
                     <p class="cardgrid__itemDescription hasSibling">Natural, Fair Trade Certified, using 100% organic sugar cane from Brazil as the sweetener soda (Product of USA)</p>
-                    <div class="checkboxes">
+                    <!-- <div class="checkboxes">
                       <div class="checkboxes__item">
                         <input id="peach-mango" type="radio" name="maine-root-soda" hidden>
                         <label class="radio" for="peach-mango">Root Beer</label>
@@ -919,10 +961,10 @@
                         <input id="the-original" type="radio" name="maine-root-soda" hidden>
                         <label class="radio" for="the-original">Ginger Brew</label>
                       </div>
-                    </div>
+                    </div> -->
                     <p class="cardgrid__itemPrice">$3.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -947,7 +989,7 @@
                     <p class="cardgrid__itemDescription">Natural Mineral Water (Product of France)</p>
                     <p class="cardgrid__itemPrice">$3.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -963,7 +1005,7 @@
                     <p class="cardgrid__itemDescription">Natural Artesian Water (Product of Fiji)</p>
                     <p class="cardgrid__itemPrice">$2.49</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -976,7 +1018,7 @@
         <section class="cardgridSection">
           <div class="container">
             <h4 class="cardgridSection__title">Catering</h4>
-            <h5 class="cardgridSection__subtitle">Pickup only. Please order through the "Delivery" tab on our app or website for delivery</h5>
+            <h5 class="cardgridSection__subtitle">PICK UP OR DELIVERY. FOR DELIVERY PLEASE ORDER THROUGH THE "DELIVERY" TAB ON OUR APP OR WEBSITE.</h5>
             <div class="cardgrid">
               <div class="cardgrid__item">
                 <div class="cardgrid__itemInner">
@@ -991,7 +1033,7 @@
                     <p class="cardgrid__itemDescription">20 Bases, 20 Veggies, 12 Proteins, 20 Add-Ons, 12 Sauces, Seeds<br> Bowls, Napkins, Forks</p>
                     <p class="cardgrid__itemPrice">$149.00</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -1007,7 +1049,7 @@
                     <p class="cardgrid__itemDescription">26 Bases, 26 Veggies, 16 Proteins, 26 Add-Ons, 16 Sauces, Seeds<br> Bowls, Napkins, Forks</p>
                     <p class="cardgrid__itemPrice">$199.00</p>
                     <div class="cardgrid__itemBtnWrap">
-                      <button class="header__btn btn btn-regular" type="button">Order Now</button>
+                      <a target="_blank" href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-regular">Order Now</a>
                     </div>
                   </div>
                 </div>
@@ -1255,15 +1297,15 @@
               <input id="email" email="email" type="text" placeholder="e.g. email@example.com" required>
             </li>
             <li class="form-list-item">
-              <label for="phone">Phone number</label>
+              <label for="phone">Phone number (optional)</label>
               <input id="phone" name="phone" type="phone" placeholder="e.g. 1234567890">
             </li>
           </ol>
           <div class="checkbox-wrap">
-            <input type="checkbox" id="newsletter-checkbox-phone">
-            <label for="newsletter-checkbox-phone">I'd like to get texts about specials, events, and other exclusive offers and announcements not available to the general public </label>
+            <input type="checkbox" id="newsletter-checkbox-phone" required>
+            <label for="newsletter-checkbox-phone">I'd like to get texts about specials, events, and other exclusive offers and announcements not available to the general public (required) </label>
           </div>
-          <a href="https://www.spothopperapp.com/spots/87967/terms_and_conditions?_gl=1*x7jw6o*_ga*MTc3MTcwNTcyNy4xNzA5ODI4NzU1*_ga_VG24VK2VKT*MTcxMDc2NDE5NS4xNS4xLjE3MTA3NjU4MTEuMC4wLjA.">Privacy Policy Terms and Conditions</a>
+          <a href="https://www.spothopperapp.com/spots/87967/terms_and_conditions?_gl=1*x7jw6o*_ga*MTc3MTcwNTcyNy4xNzA5ODI4NzU1*_ga_VG24VK2VKT*MTcxMDc2NDE5NS4xNS4xLjE3MTA3NjU4MTEuMC4wLjA." target="_blank">Privacy Policy Terms and Conditions</a>
           <ul class="form-info-list">
             <li>Message and data rates may apply.</li>
             <li>Message frequency varies.</li>
@@ -1281,6 +1323,7 @@
   <script src="js/slick.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/js/custom.js"></script>
+  <script src="https://static.newo.ai/chat/web-chat.js" name="web-chat" data-client-secret="77a1dc14-4174-4fa2-bf2b-911f9b1ae34c"></script>
 </body>
 
 </html>

@@ -75,6 +75,19 @@ $(function () {
             }
          }
       }
+
+      console.log("jjjj");
+
+      $(".js-tabs").slick({
+         dots: false,
+         autoplay: false,
+         infinite: false,
+         speed: 300,
+         slidesToShow: 6,
+         slidesToScroll: 1,
+         variableWidth: true,
+         arrows: false,
+      });
    }
 
    /* placeholder*/
@@ -263,5 +276,12 @@ $(function () {
       //       },
       //    },
       // });
+   }
+
+   const btnSelect = document.querySelector(".js-btn-select");
+   if (btnSelect) {
+      btnSelect.addEventListener("click", e => {
+         e.currentTarget.nextElementSibling.classList.toggle("active");
+      });
    }
 });

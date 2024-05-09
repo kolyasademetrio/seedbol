@@ -53,25 +53,33 @@
 								<a href="/rehoboth-beach-seedbol-seed-eatery-about.html" class="menu__link">About Us</a>
 							</li>
 							<li class="menu__item">
-								<a href="https://scnv.io/uc0j" class="menu__link">Download App</a>
+								<a href="https://scnv.io/uc0j" class="menu__link" target="_blank">Download App</a>
 							</li>
 							<li class="menu__item">
-								<a href="https://scnv.io/RZn3" class="menu__link">Review Us</a>
+								<a href="https://scnv.io/RZn3" class="menu__link" target="_blank">Review Us</a>
+							</li>
+							<!-- <li class="menu__item">
+                <a href="https://tmt.spotapps.co/job-listings?spot_id=87967&callback_url=http://seedbol.com/&_gl=1*1yozaqf*_ga*MTc3MTcwNTcyNy4xNzA5ODI4NzU1*_ga_VG24VK2VKT*MTcxMDc3NTA1NS4xNi4xLjE3MTA3NzUxMTEuMC4wLjA.#&source=footer" class="menu__link" target="_blank">Jobs</a>
+              </li> -->
+							<li class="menu__item">
+								<a href="https://my.loopz.io/card-checkout/ae272d5b-d8a0-4a2a-9992-4313023faa58" class="menu__link" target="_blank">Gift Cards</a>
 							</li>
 							<li class="menu__item">
-								<a href="https://tmt.spotapps.co/job-listings?spot_id=87967&callback_url=http://seedbol.com/&_gl=1*1yozaqf*_ga*MTc3MTcwNTcyNy4xNzA5ODI4NzU1*_ga_VG24VK2VKT*MTcxMDc3NTA1NS4xNi4xLjE3MTA3NzUxMTEuMC4wLjA.#&source=footer" class="menu__link">Jobs</a>
-							</li>
-							<li class="menu__item">
-								<a href="https://my.loopz.io/card-checkout/ae272d5b-d8a0-4a2a-9992-4313023faa58" class="menu__link">Gift Cards</a>
-							</li>
-							<li class="menu__item">
-								<a href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308/catering#" class="menu__link">Catering</a>
+								<a href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308/catering#" class="menu__link" target="_blank">Catering</a>
 							</li>
 						</ul>
 					</nav>
 					<div class="header__navOverlay js-menu-overlay"></div>
 					<div class="header__btnWrap">
-						<a href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-secondary" target="_blank">Order Now</a>
+						<button class="header__btn btn btn-secondary js-btn-select">Order Now</button>
+						<div class="select js-btn-select-holder">
+							<div class="option">
+								<a href="https://orders.hazlnut.com/menu/b/SEED%20eatery/n/308/p/85/g/1308" class="header__btn btn btn-secondary" target="_blank">Pick up</a>
+							</div>
+							<div class="option">
+								<a href="https://order.online/store/seedbol-kitchen-rehoboth-beach-939053/" class="header__btn btn btn-secondary" target="_blank">Delivery</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -135,15 +143,15 @@
 							<input id="email" email="email" type="text" placeholder="e.g. email@example.com" required>
 						</li>
 						<li class="form-list-item">
-							<label for="phone">Phone number</label>
+							<label for="phone">Phone number (optional)</label>
 							<input id="phone" name="phone" type="phone" placeholder="e.g. 1234567890">
 						</li>
 					</ol>
 					<div class="checkbox-wrap">
-						<input type="checkbox" id="newsletter-checkbox-phone">
-						<label for="newsletter-checkbox-phone">I'd like to get texts about specials, events, and other exclusive offers and announcements not available to the general public </label>
+						<input type="checkbox" id="newsletter-checkbox-phone" required>
+						<label for="newsletter-checkbox-phone">I'd like to get texts about specials, events, and other exclusive offers and announcements not available to the general public (required) </label>
 					</div>
-					<a href="https://www.spothopperapp.com/spots/87967/terms_and_conditions?_gl=1*x7jw6o*_ga*MTc3MTcwNTcyNy4xNzA5ODI4NzU1*_ga_VG24VK2VKT*MTcxMDc2NDE5NS4xNS4xLjE3MTA3NjU4MTEuMC4wLjA.">Privacy Policy Terms and Conditions</a>
+					<a href="https://www.spothopperapp.com/spots/87967/terms_and_conditions?_gl=1*x7jw6o*_ga*MTc3MTcwNTcyNy4xNzA5ODI4NzU1*_ga_VG24VK2VKT*MTcxMDc2NDE5NS4xNS4xLjE3MTA3NjU4MTEuMC4wLjA." target="_blank">Privacy Policy Terms and Conditions</a>
 					<ul class="form-info-list">
 						<li>Message and data rates may apply.</li>
 						<li>Message frequency varies.</li>
@@ -161,6 +169,7 @@
 	<script src="js/slick.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/js/custom.js"></script>
+	<script src="https://static.newo.ai/chat/web-chat.js" name="web-chat" data-client-secret="77a1dc14-4174-4fa2-bf2b-911f9b1ae34c"></script>
 </body>
 
 </html>

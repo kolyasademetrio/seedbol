@@ -60,6 +60,10 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 
+  &.m-secondary {
+    max-width: 1250px;
+  }
+
   &.fullwidth {
     max-width: 100%;
   }
@@ -122,8 +126,8 @@ img {
   transition: all .3s ease 0s;
 
   &:hover {
-    background-color: #545454;
-    border-color: #545454;
+    background-color: #000;
+    border-color: #000;
   }
 
   &.fullwidth {
@@ -134,11 +138,11 @@ img {
 .btn.btn-secondary {
   min-width: 160px;
   background-color: #fff;
-  color: #437214;
+  color: #599919;
 
   &:hover {
     background-color: #fff;
-    color: #545454;
+    color: #000;
   }
 }
 
@@ -146,7 +150,7 @@ img {
   font-size: 63px;
   font-family: $serif;
   padding: 0 0 10px;
-  color: #545454;
+  color: #000;
   font-weight: 400;
 
   @media screen and (max-width: 1400px) {
@@ -182,6 +186,8 @@ img {
   z-index: 1;
   overflow: hidden;
   background-attachment: fixed;
+
+  background: #fff;
 }
 
 .slick-dots {
@@ -295,7 +301,7 @@ img {
 }
 
 .about {
-  color: #545454;
+  color: #000;
 
   &__inner {}
 
@@ -311,10 +317,21 @@ img {
     width: 52%;
     text-align: center;
     padding: 7% 5%;
+    padding-bottom: 5px;
+
+    &.m-secondary {
+      padding-top: 5px;
+      padding-bottom: 7%;
+
+      @media screen and (max-width: 767px) {
+        padding-top: 7%;
+      }
+    }
 
     @media screen and (max-width: 767px) {
       width: 100%;
       order: 2;
+      padding-bottom: 7%;
     }
   }
 
@@ -344,7 +361,7 @@ img {
 
   &__subtitle {
     text-transform: uppercase;
-    color: #437214;
+    color: #599919;
     font-weight: 500;
 
     font-size: 22px;
@@ -374,6 +391,9 @@ img {
   }
 
   &__btnWrap {
+    display: flex;
+    justify-content: center;
+
     @media screen and (max-width: 767px) {
       display: flex;
       justify-content: center;
@@ -422,10 +442,10 @@ img {
   }
 
   &__logoWrap {
-    max-width: 90px;
+    max-width: 70px;
 
     @media screen and (max-width: 767px) {
-      max-width: 80px;
+      max-width: 60px;
     }
   }
 
@@ -467,7 +487,7 @@ img {
   &__marker {
     padding: 0 10px;
     font-size: 20px;
-    color: #437214;
+    color: #599919;
   }
 }
 
@@ -539,7 +559,7 @@ img {
   .reviews__slider {}
 
   .reviews__slide {
-    color: #545454;
+    color: #000;
   }
 
   .reviews__slideTitle {
@@ -874,7 +894,7 @@ img {
   &__itemInnerTitle {
     font-size: 25px;
     font-family: 'abrilfatface-regular', serif;
-    color: #545454;
+    color: #000;
     padding-top: 0;
     font-weight: 700;
 
@@ -892,7 +912,7 @@ img {
   }
 
   &__itemInnerText {
-    color: #545454;
+    color: #000;
     font-size: 15px;
     line-height: 1.5;
     padding: 0;
@@ -910,7 +930,7 @@ img {
   &__itemInnerListItem {}
 
   &__itemInnerListItemLink {
-    color: #545454;
+    color: #000;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -990,7 +1010,7 @@ img {
   display: none;
 
   @media screen and (max-width: 767px) {
-    display: block;
+    // display: block;
   }
 
   .container {
@@ -1026,18 +1046,18 @@ img {
   border-radius: 6px;
   text-align: center;
   font-size: 15px;
-  color: #545454;
+  color: #000;
   line-height: 1.5;
   position: relative;
 
   .subtitle {
     font-weight: 400;
-    color: #545454;
+    color: #000;
   }
 
   p {
     font-size: 15px;
-    color: #545454;
+    color: #000;
   }
 
   .form-list {
@@ -1051,12 +1071,12 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    color: #545454;
+    color: #000;
 
     input {
       width: 100%;
       padding: 9px 5px;
-      border-color: #545454;
+      border-color: #000;
       border-width: 1px;
     }
 
@@ -1066,7 +1086,7 @@ img {
   }
 
   label {
-    color: #545454;
+    color: #000;
     font-weight: 400;
     font-size: 15px;
   }
@@ -1172,9 +1192,9 @@ img {
 .custom-temp-btn {
   padding: 10px 40px 8px;
   text-transform: uppercase;
-  background-color: #437214;
-  background: #437214;
-  border: 2px solid #437214;
+  background-color: #599919;
+  background: #599919;
+  border: 2px solid #599919;
   color: #fff;
   font-weight: 500;
   font-size: 18px;
@@ -1203,21 +1223,31 @@ img {
     }
   }
 
+  .food-menu-nav-wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
   .food-menu-nav {
     width: 100%;
     padding: 0;
     margin: 40px auto 10px auto;
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 14px;
+
+    li {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
 
   .food-menu-nav .food-menu-nav-item {
     background-color: transparent;
-    border: 2px solid #437214;
-    color: #545454;
+    border: 2px solid #599919;
+    color: #000;
     font-size: 18px;
   }
 
@@ -1241,8 +1271,8 @@ img {
 
   .food-menu-nav .food-menu-nav-item:hover,
   .food-menu-nav .food-menu-nav-item.active {
-    background-color: #437214;
-    border-color: #437214;
+    background-color: #599919;
+    border-color: #599919;
     color: #fff;
     text-decoration: none;
   }
@@ -1457,7 +1487,7 @@ body.accessibility-page {
 
   &__title {
     font-family: 'abrilfatface-regular', serif;
-    color: #545454;
+    color: #000;
     font-size: 57px;
     font-weight: 700;
     text-align: center;
@@ -1469,14 +1499,15 @@ body.accessibility-page {
 
   &__subtitle {
     font-family: 'abrilfatface-regular', serif;
-    color: #545454;
-    font-size: 30px;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.5;
     font-weight: 700;
     text-align: center;
   }
 
   &__text {
-    color: #545454;
+    color: #000;
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
@@ -1526,7 +1557,7 @@ body.accessibility-page {
 .cardgrid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   margin-left: -10px;
   margin-right: -10px;
 
@@ -1549,17 +1580,17 @@ body.accessibility-page {
 }
 
 .cardgrid__itemInner {
-  border: 1px solid #437214;
+  border: 1px solid #599919;
   background-color: #fff;
   border-radius: 50px;
   overflow: hidden;
-  color: #545454;
+  color: #000;
   height: 100%;
   display: flex;
   flex-direction: column;
 
-  a {
-    color: #545454;
+  a:not(.btn) {
+    color: #000;
   }
 }
 
@@ -1588,7 +1619,7 @@ body.accessibility-page {
   bottom: 0;
   color: #fff;
   text-transform: uppercase;
-  background-color: #437214;
+  background-color: #599919;
   z-index: 1;
   height: 24px;
   display: flex;
@@ -1615,7 +1646,7 @@ body.accessibility-page {
 
   &.m-secondary {
     text-transform: uppercase;
-    color: #437214;
+    color: #599919;
     padding-top: 10px;
   }
 }
@@ -1677,7 +1708,7 @@ body.accessibility-page {
 
 .cardgrid__itemListItemTextSpan {
   font-family: "abrilfatface-regular", serif;
-  color: #437214;
+  color: #599919;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1729,7 +1760,7 @@ body.accessibility-page {
 }
 
 .ingredients {
-  border: 1px solid #437214;
+  border: 1px solid #599919;
   border-radius: 50px;
   background: #fff url('../images/menu/ingredients-bg.png') center center no-repeat;
   background-size: contain;
@@ -1782,7 +1813,7 @@ body.accessibility-page {
 
 .ingredients__itemTitle {
   font-size: 24px;
-  color: #437214;
+  color: #599919;
   text-transform: uppercase;
   font-weight: 700;
   padding: 0 0 20px;
@@ -1812,7 +1843,7 @@ body.accessibility-page {
   white-space: nowrap;
   font-size: 14px;
   font-weight: 400;
-  color: #437214;
+  color: #599919;
   font-family: "abrilfatface-regular", serif;
   padding-top: 3px;
 }
@@ -1822,7 +1853,7 @@ body.accessibility-page {
   justify-content: space-between;
   max-width: 270px;
   padding: 30px 0 0;
-  color: #545454;
+  color: #000;
   margin-top: auto !important;
   font-size: 24px;
   font-weight: 700;
@@ -1890,13 +1921,13 @@ body.accessibility-page {
 
     /* Handle */
     &::-webkit-scrollbar-thumb {
-      background: #437214;
+      background: #599919;
       border-radius: 4px;
     }
 
     /* Handle on hover */
     &::-webkit-scrollbar-thumb:hover {
-      background: #437214;
+      background: #599919;
     }
   }
 
@@ -1919,7 +1950,7 @@ body.accessibility-page {
 
     padding-left: 36px;
     padding-top: 4px;
-    color: #545454;
+    color: #000;
     font-size: 18px;
     font-weight: 700;
   }
