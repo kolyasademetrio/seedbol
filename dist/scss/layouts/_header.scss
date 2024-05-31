@@ -238,12 +238,14 @@
   }
 
   justify-content: flex-start;
-  gap: 10px;
+  gap: 15px;
   padding: 25px 0 0;
 
   &__item {}
 
-  &__link {}
+  &__link {
+    font-size: 22px;
+  }
 
 }
 
@@ -259,13 +261,13 @@
 
   padding: 25px 0 0;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 
   &__item {}
 
   &__link {
     display: block;
-    width: 150px;
+    width: 130px;
     height: 40px;
 
     svg {
