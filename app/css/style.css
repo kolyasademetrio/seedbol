@@ -9784,4 +9784,18 @@ body.accessibility-page {
     display: block;
   }
 }
+
+.textContent {
+  padding: 50px 0 30px;
+  text-align: center;
+}
+.textContent__title {
+  font-size: 60px;
+}
+.textContent__paragraph {
+  font-size: 17px;
+}
+.textContent__ContentTitle {
+  font-size: 19px;
+}
 /*# sourceMappingURL=style.css.map */

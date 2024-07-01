@@ -2098,3 +2098,20 @@ body.accessibility-page {
     display: block;
   }
 }
+
+.textContent {
+  padding: 50px 0 30px;
+  text-align: center;
+
+  &__title {
+    font-size: 60px;
+  }
+
+  &__paragraph {
+    font-size: 17px;
+  }
+
+  &__ContentTitle {
+    font-size: 19px;
+  }
+}
